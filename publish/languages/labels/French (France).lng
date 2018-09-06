@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+	<section name="MasterPage">
+		<element name="MT_ShowString" value="Afficher"></element>
+		<element name="MT_HideString" value="Masquer"></element>
+	</section>
+	<section name="GlossaryTab">
+		<element name="TabCaption" value="&amp;Glossaire"></element>
+		<element name="TermCaption" value="&amp;Terme"></element>
+		<element name="DefinitionCaption" value="&amp;Définition pour:"></element>
+	</section>
+	<section name="BrowseSequence">
+		<element name="PreCaption" value="Précédent"></element>
+		<element name="PreTooltip" value="Sujet précédent"></element>
+		<element name="NextCaption" value="Suivant"></element>
+		<element name="NextTooltip" value="Sujet suivant"></element>
+		<element name="BlockTooltip" value="Sélectionner les séquences d'exploration"></element>
+	</section>
+	<section name="Common">
+		<element name="Contents" value="Contenu"></element>
+		<element name="Index" value="Index"></element>
+		<element name="Search" value="Recherche"></element>
+		<element name="Glossary" value="Glossaire"></element>
+		<element name="Logo/Author" value="Développé par"></element>
+		<element name="Show" value="Afficher"></element>
+		<element name="Hide" value="Masquer"></element>
+		<element name="SyncToc" value="Synchro Toc"></element>
+		<element name="Prev" value="&lt;&lt;"></element>
+		<element name="Next" value=">>"></element>
+		<element name="Disabled Prev" value="&lt;&lt;"></element>
+		<element name="Disabled Next" value=">>"></element>
+		<element name="Seperate" value="|"></element>
+		<element name="OpenLinkInNewTab" value="Ouvrir dans un nouvel onglet"/>
+	</section>
+	<section name="AdobeAIR">
+		<element name="PreferenceButtonTitle" value="Préférences"/> 
+		<element name="AboutButtonTitle" value="A propos de"/>
+		<element name="AboutDialogTitle" value="À propos"/> 
+		<element name="AboutHelpID" value="ID d'aide :"/>
+		<element name="AboutVersionID" value="ID de version :"/> 
+		<element name="AboutDescription" value="Description :"/>
+		<element name="ConnectionError" value="Impossible d'accéder à l'emplacement partagé pour les commentaires"/> 
+		<element name="SyncMessage" value="Commentaires envoyés/reçus"/>
+		<element name="SendCommentsServerMessage" value="Commentaires envoyés vers le serveur"/> 
+		<element name="ReceiveCommentsServerMessage" value="Commentaires reçus du serveur"/>
+		<element name="SendCommentsFileMessage" value="Commentaires envoyés vers l'emplacement partagé"/> 
+		<element name="ReceiveCommentsFileMessage" value="Commentaires reçus de l'emplacement partagé"/>
+		<element name="CommentsAddEmptyError" value="Impossible d'ajouter des commentaires vides"/> 
+		<element name="FileError" value="Erreur lors de l'accès au fichier de commentaires partagé"/>
+		<element name="SendToFileMenu" value="Envoyer vers un fichier"/> 
+		<element name="SendToServerMenu" value="Envoyer vers un serveur"/>
+		<element name="ReceiveFromFileMenu" value="Recevoir à partir d'un fichier"/> 
+		<element name="ReceiveFromServerMenu" value="Recevoir à partir d'un serveur"/>
+		<element name="ShowReviewerMenu" value="Réviseur"/> 
+		<element name="ShowDateMenu" value="Date"/>
+		<element name="ShowCommentShowAllMenuItem" value="Tout"/> 
+		<element name="CommentFileMismatchError" value="L'ID d'aide ne correspond pas. Impossible d'importer les commentaires."/>
+		<element name="InvalidXML" value="Fichier XML non valide"/> 
+		<element name="CannotImportFileError" value="Impossible d'importer à partir d'un fichier"/>
+		<element name="SaveXMLFileDlg" value="Enregistrer le fichier XML de commentaires"/> 
+		<element name="CommentTitle" value="Commentaires"/>
+		<element name="AddCommentButton" value="Ajouter"/> 
+		<element name="AddCommentButtonToolTip" value="Afficher/masquer la boîte dialogue d'ajout de commentaires"/>
+		<element name="DeleteCommentButton" value="Supprimer"/> 
+		<element name="DeleteCommentButtonToolTip" value="Supprimer le commentaire sélectionné"/>
+		<element name="SendRcvCommentButtonToolTip" value="Envoyer et recevoir des commentaires"/> 
+		<element name="SendRcvCommentButton" value="Envoyer et recevoir"/>
+		<element name="SaveCommentText" value="Ajouter des commentaires :"/> 
+		<element name="AddCommentHereText" value="Ajoutez ici vos commentaires"/>
+		<element name="SaveCommentTextToolTip" value="Écrivez les commentaires que vous voulez ajouter"/> 
+		<element name="SaveButtonToolTip" value="Cliquez pour ajouter des commentaires à la base de données"/>
+		<element name="SaveButton" value="Enregistrer"/> 
+		<element name="BackButtonToolTip" value="Précédent"/>
+		<element name="ForwardButtonToolTip" value="Suivant"/> 
+		<element name="SearchButtonToolTip" value="Appuyez sur Ctrl+Entrée pour afficher les résultats de la recherche dans un nouvel onglet."/>
+		<element name="SearchButtonTitle" value="Rechercher"/> 
+		<element name="ShowHideButtonToolTip" value="Afficher/Masquer"/>
+		<element name="PrintMenuOptionsToolTip" value="Menu Imprimer"/> 
+		<element name="FavoritesTopMenuToolTip" value="Ajouter des favoris ou les afficher"/>
+		<element name="CommentPodToggleToolTip" value="Activer/désactiver le conteneur Commentaires"/> 
+		<element name="AddToFavoriteMenuItem" value="Ajouter aux liens"/>
+		<element name="ViewFavoriteMenuItem" value="Afficher les favoris"/> 
+		<element name="PrintThisPage" value="Imprimer cette page"/>
+		<element name="PrintSequence" value="Imprimer une séquence"/> 
+		<element name="PrintEntireHelp" value="Imprimer l’intégralité de l’aide"/>
+		<element name="PrefTitle" value="Préférences"/> 
+		<element name="PreferenceDialogUserNameError" value="Indiquez un nom de réviseur valide."/>
+		<element name="PreferenceDialogAllCommentsDeleted" value="Tous les commentaires ont été supprimés."/> 
+		<element name="PreferenceDialogCommentsDeleteMsg" value="Souhaitez-vous supprimer l’ensemble des commentaires ?"/>
+		<element name="PreferenceDialogContentTabTitle" value="Général"/> 
+		<element name="PreferenceDlgOpenInNewTab" value="Ouvrir les rubriques d’aide dans un nouvel onglet"/>
+		<element name="PreferenceDlgShowBreadCrumb" value="Afficher les chemins de navigation"/> 
+		<element name="PreferenceDlgUseOfflineHelp" value="Utiliser l’aide hors ligne"/>
+		<element name="PreferenceDlgShowBrowseSequence" value="Afficher la séquence de navigation"/> 
+		<element name="PreferenceDlgAutoUpdateContent" value="Mettre à jour le contenu automatiquement"/>
+		<element name="PreferenceDlgCheckForUpdate" value="Vérifier les mises à jour"/> 
+		<element name="PreferenceDlgCheckUpdateButton" value="Vérifier maintenant"/>
+		<element name="PreferenceDialogCommentTabTitle" value="Commentaire"/> 
+		<element name="PreferenceDlgUseLoginName" value="Toujours utiliser le nom de connexion comme nom de réviseur"/>
+		<element name="PreferenceDlgReviewerName" value="Nom du réviseur"/> 
+		<element name="PreferenceDlgDeleteAllComments" value="Supprimer tous les commentaires"/>
+		<element name="PreferenceDlgDeleteCommentButton" value="Tout supprimer"/> 
+		<element name="ViewerDialogOKButton" value="OK"/>
+		<element name="ViewerDialogCancelButton" value="Annuler"/> 
+		<element name="PrintEntireHelpString" value="Voulez-vous imprimer tous les sujets ?"/>
+		<element name="ServerConnectionError" value="Aucune connexion au serveur n’est disponible ; le système bascule en mode hors ligne."/> 
+		<element name="ErrorShowingHelpFile" value="Erreur lors de l’accès au fichier d’aide"/>
+		<element name="LoadingNewTabMsg" value="Chargement..."/> 
+		<element name="SearchResultDefaultBookmark" value="Résultats de la recherche sur "/>
+		<element name="PrintAlertTitle" value="Imprimer"/> 
+		<element name="NewSearchTabTitle" value="Résultats de la recherche"/>
+		<element name="PrintThisCategory" value="Imprimer cette catégorie"/> 
+		<element name="OpenInNewTab" value="Ouvrir dans un nouvel onglet"/>
+		<element name="TOCBoxTitle" value="Table des matières"/> 
+		<element name="IndexBoxTitle" value="Index"/>
+		<element name="GlossaryBoxTitle" value="Glossaire"/> 
+		<element name="FavoriteBoxTitle" value="Favoris"/>
+		<element name="DeleteButtonTitle" value="Supprimer"/> 
+		<element name="GlossaryDefinitionBoxTitle" value="Définition du glossaire"/>
+		<element name="IndexSearchText" value="Indiquez les mots-clés à rechercher."/> 
+		<element name="BrowseSequenceBoxTitle" value="Procédures"/>
+		<element name="SearchTextInputToolTip" value="Saisissez le texte à rechercher."/> 
+		<element name="FavoriteDisplayTopic" value="Afficher"/>
+		<element name="FavoriteDeleteTopic" value="Supprimer"/> 
+		<element name="FavoriteRenameTopic" value="Renommer"/>
+		<element name="FavoriteAddFolderTopic" value="Ajouter un répertoire"/> 
+		<element name="FavoriteAddRSSFeed" value="Ajouter un flux RSS"/>
+		<element name="AddNewFavoriteMenu" value="Ajouter un lien"/> 
+		<element name="EditOption" value="Modifier"/>
+		<element name="FavoriteMessageTitle" value="Favoris"/> 
+		<element name="FavoriteAlredyExists" value="existe déjà dans les Favoris."/>
+		<element name="LinksButtonTitle" value="Liens"/> 
+		<element name="FeedsButtonTitle" value="Flux RSS"/>
+		<element name="FavoriteDeleteButton" value="Supprimer"/> 
+		<element name="NewFolderName " value="Nouveau dossier"/>
+		<element name="OpenURL" value="Ouvrir l’URL"/> 
+		<element name="MarkAsRead" value="Marquer comme lu"/>
+		<element name="MarkAsUnread" value="Marquer comme non lu"/> 
+		<element name="OpenInBrowser" value="Ouvrir dans un navigateur"/>
+		<element name="NewRSSFeedDlgTitle" value="Ajouter un nouveau flux RSS"/> 
+		<element name="NewRSSFeedName" value="Nom du flux RSS :"/>
+		<element name="NewRSSFeedURL" value="URL du flux RSS :"/> 
+		<element name="EditRSSFeedDlgTitle" value="Modifier le flux RSS"/>
+		<element name="NewBookmarkDlgTitle" value="Ajouter un nouveau lien"/> 
+		<element name="NewBookmarkName" value="Nom du lien"/>
+		<element name="NewBookmarkURL" value="URL du lien"/> 
+		<element name="EditBookmarkDlgTitle" value="Modifier un lien"/>
+		<element name="SearchResultError" value="La recherche n’a donné aucun résultat."/> 
+		<element name="FavoriteInvalidNameError" value="Nom incorrect"/>
+		<element name="CommentImportFileDlgTitle" value="Sélectionner le fichier XML de commentaires à importer"/> 
+		<element name="MinimizeAppButton" value="Réduire"/>
+		<element name="MaximizeAppButton" value="Agrandir"/> 
+		<element name="CloseAppButton" value="Fermer"/>
+		<element name="PreferenceDlgHighLightSearch" value="Mettre en évidence les résultats de la recherche"/> 
+		<element name="NoUpdatePresent" value="Aucune mise à jour n’est disponible."/>
+		<element name="CheckingforUpdateMsg" value="Vérification des mises à jour…"/> 
+		<element name="UpdateMsgTitle" value="Mettre à jour automatiquement"/>
+		<element name="NoUpdateLocationSpecified" value="L’emplacement de mise à jour est manquant."/> 
+		<element name="ErrorInDownloadingUpdate" value="Erreur lors du téléchargement"/>
+		<element name="ErrorInInstallingUpdate" value="Erreur lors de l’installation"/> 
+		<element name="DownloadingUpdate" value="Téléchargement des mises à jour..."/>
+		<element name="InstallationStarted" value="Lancement de l’installation..."/> 
+		<element name="UpdateAvailable" value="Une mise à jour est disponible. Voulez-vous effectuer la mise à jour maintenant ?"/>
+		<element name="UpdateAvailableWithVersion" value="Une mise à jour vers la version %s est disponible. Voulez-vous effectuer la mise à jour maintenant ?"/> 
+		<element name="ErrorWhileUpdating" value="Erreur lors de la mise à jour"/>
+		<element name="NewUpdateAvailableMsg" value="Nouvelle mise à jour"/> 
+		<element name="PreferenceDialogBrowseButtonTitle" value="Parcourir"/>
+		<element name="PreferenceDlgChkCommentLocation" value="Utiliser l’emplacement par défaut pour la synchronisation des commentaires"/> 
+		<element name="PreferenceDlgCommentSyncLocation" value="Emplacement du dossier :"/>
+		<element name="RSSSelectLabel" value="Sélectionner :"/> 
+		<element name="RSSNoneLabel" value="Aucun"/>
+		<element name="RSSReadLabel" value="Lus"/> 
+		<element name="RSSUnReadLabel" value="Non lus"/>
+		<element name="RSSRefreshLabel" value="Actualiser"/> 
+		<element name="GenericDeleteMsg" value="Souhaitez-vous supprimer l’élément sélectionné ?"/>
+		<element name="ViewerDialogYesButton" value="Oui"/> 
+		<element name="ViewerDialogNoButton" value="Non"/>
+		<element name="AsAnonymous" value="En tant qu'anonyme"/> 
+		<element name="PreviewMode" value="Mode d'aperçu"/>
+		<element name="AllAuthors" value="Tous les auteurs"/> 
+		<element name="CurrentTopic" value="Commentaires pour le sujet actuel"/>
+		<element name="AllTopics" value="Commentaires pour tous les sujets"/> 
+		<element name="CommentText" value="Commentaire"/>
+		<element name="Date" value="Date"/> 
+		<element name="Status" value="État"/>
+		<element name="Author" value="Auteur"/> 
+		<element name="AcceptAll" value="Accepter tout"/>
+		<element name="RejectAll" value="Refuser tout"/> 
+		<element name="Accept" value="Accepter"/>
+		<element name="Reject" value="Refuser"/> 
+		<element name="Delete" value="Supprimer"/>
+		<element name="Update" value="Mettre à jour"/> 
+		<element name="StartModeration" value="Importer"/>
+		<element name="EndModeration" value="Exporter"/> 
+		<element name="ShowBy" value="Afficher par"/>
+		<element name="AuthenticateTitle" value="Authentifier"/> 
+		<element name="Username" value="Nom d'utilisateur :"/>
+		<element name="Password" value="Mot de passe :"/> 
+		<element name="LoginFailure" value="Mot de passe incorrect"/>
+		<element name="LoginFailureTitle" value="Authentification"/> 
+		<element name="View" value="Afficher"/>
+		<element name="SortByDate" value="Trier par date"/> 
+		<element name="AllStatus" value="Tous les états"/>
+		<element name="OnlyAccepted" value="Accepté"/> 
+		<element name="OnlyRejected" value="Refusé"/>
+		<element name="OnlyPending" value="En attente"/> 
+		<element name="OnlyNew" value="Nouveau"/>
+		<element name="RememberMe" value="Mémoriser mes informations"/> 
+		<element name="AnonymousDlgText" value="Les commentaires anonymes deviennent visibles une fois qu'ils sont acceptés. Voulez-vous publier des commentaires de façon anonyme ?"/>
+		<element name="Anonymous" value="Anonyme"/> 
+		<element name="CurrentOnlineText" value="Travaillant actuellement en ligne"/>
+		<element name="CurrentOfflineText" value="Travaillant actuellement hors ligne"/> 
+		<element name="GoOffline" value="déconnecter"/>
+		<element name="GoOnline" value="connecter"/> 
+		<element name="ClickHere" value="Cliquez ici pour vous"/>
+		<element name="WrongPassword" value="Mot de passe incorrect. Essayez une nouvelle fois."/> 
+		<element name="ProgressBarTitle" value="Veuillez patienter…"/>
+		<element name="ErrorMsgTitle" value="Erreur"/> 
+		<element name="ErrorServerConnection" value="Erreur lors de la connexion au serveur. Vérifiez votre connexion à Internet et essayez une nouvelle fois."/>
+		<element name="ServerSyncRequiredButtonLabel" value="Synchroniser maintenant"/> 
+		<element name="EnableModeration" value="Afficher le conteneur Modération"/>
+		<element name="ModerationModeToolTip" value="Passer en mode Modération"/> 
+		<element name="CommentsModeToolTip" value="Passer en mode Commentaires"/>
+		<element name="BrowseSeqPrintProgressMsg" value="Chargement des sujets pour l'impression…"/> 
+		<element name="EntireHelpPrintProgressMsg" value="Chargement du sujet %1 sur %2…"/>
+		<element name="PrintNotAllowedWariningMsg" value="Impossible d'imprimer les sujets suivants. Voulez-vous continuer ?"/> 
+		<element name="LoginFailedErrorMsg" value="Échec de la connexion. Essayez une nouvelle fois."/>
+		<element name="PreferenceDlgAutoImportCommentsOnLaunch" value="Recevoir des commentaires provenant du dossier partagé"/> 
+		<element name="WelcomeUserOnSign" value="Bienvenue %1"/>
+		<element name="SignIn" value="Se connecter"/> 
+		<element name="SignOut" value="Se déconnecter"/>
+		<element name="ModerationRightsNotPresent" value="Il est nécessaire de disposer des droits d'administrateur pour afficher le conteneur Modération"/> 
+		<element name="ConfirmDelete" value="Voulez-vous supprimer le commentaire ?"/>
+		<element name="PreferenceDlgAutoImportCommentsOnSignin" value="Recevoir des commentaires du serveur lors de la connexion"/> 
+		<element name="CommentsBy" value="Commentaires de :"/>
+		<element name="ViewALLComments" value="Afficher tout"/> 
+		<element name="ViewAcceptedComments" value="Afficher les commentaires acceptés"/>
+		<element name="ViewRejectedComments" value="Afficher les commentaires refusés"/> 
+		<element name="ViewPendingComments" value="Afficher les commentaires en attente"/>
+		<element name="NewestOnTopLabel" value="Par ordre chronologique décroissant"/> 
+		<element name="NewestOnBottomLabel" value="Par ordre chronologique croissant"/>
+		<element name="RequireWritePermission" value="Le modérateur doit disposer des autorisations d'accès en écriture sur le répertoire partagé."/> 
+		<element name="PreferenceDialogBrowseCommentSyncLocation" value="Sélectionner l'emplacement de stockage des commentaires :"/>
+		<element name="LoadingCommentsForUserMessage" value="Réception des commentaires…"/> 
+		<element name="UpdatingCommentsForUserMessage" value="Envoi des commentaires…"/>
+		<element name="SyncModerationFromServerMsg" value="Envoi/réception des commentaires terminés."/> 
+		<element name="SyncCommentsFromServerMsg" value="Envoi/réception des commentaires terminés."/>
+		<element name="RecieveCommentFromServerStartMsg" value="Réception des commentaires…"/> 
+		<element name="SendCommentToServerStartMsg" value="Envoi des commentaires…"/>
+		<element name="ContentCategoryList" value="Sélectionner une catégorie de contenu"/> 
+		<element name="CommentsNotFoundMsg" value="Aucun commentaire n'a été trouvé"/>
+		<element name="SelectStatus" value="Sélectionner un état"/> 
+		<element name="SelectAuthor" value="Sélectionner un auteur"/>
+		<element name="ModerationPodTitle" value="Modération"/> 
+		<element name="CommentDateFormatter" value="DD/MM/YYYY"/>
+		<element name="CommentDateTimeFormatter" value="DD/MM/YYYY, JJ:NN"/> 
+	</section>
+	<section name="WebHelp">
+		<element name="ContentCategoryList" value="Sélectionner une catégorie de contenu"></element>
+		<element name="Cancel" value="Annuler"></element>
+		<element name="CantOpenURLorFile" value="Impossible d'ouvrir l'URL ou le fichier"></element>
+		<element name="CompletingContents" value="Achèvement du contenu..."></element>
+		<element name="Display" value="Afficher"></element>
+		<element name="Term" value="Terme:"></element>
+		<element name="Definition" value="Définition:"></element>
+		<element name="Done" value="Terminer"></element>
+		<element name="Find" value="Rechercher"></element>
+		<element name="IndexInputPrompt" value="Taper le mot clé pour trouver:"></element>
+		<element name="RelateTopicListPrompt" value="Cliquer sur une matière, puis cliquer sur Afficher."></element>
+		<element name="LoadingData" value="Chargement des données en cours. Veuillez patienter..."></element>
+		<element name="LoadingContents" value="Téléchargement du contenu, prière d'attendre..."></element>
+		<element name="LoadingContentsData" value="Chargement en cours. Cliquer ici pour annuler..."></element>
+		<element name="LoadingFTS" value="Lecture des données de consultation..."></element>
+		<element name="LoadingIndex" value="Téléchargement de l'index..."></element>
+		<element name="LoadingTOCItem" value="Téléchargement de la table des matières :"></element>
+		<element name="Searching" value="Recherche..."></element>
+		<element name="FtsInputPrompt" value="Taper le(s) mot(s) pour trouver:"></element>
+		<element name="FtsHilitePrompt" value="Mettre en surbrillance les résultats de la recherche"></element>
+		<element name="FtsMaxResult" value="Résultats de la recherche par page"></element>
+		<element name="TopicsFound" value="Matières trouvées"></element>
+		<element name="BrowserLimitedMessage" value="L'explorateur ne supporte pas les cadres. Nous recommandons de le mettre à niveau de façon à ce qu'il supporte les cadres."></element>
+		<element name="SuggestViewNoFrameMessage" value="Pour afficher le système d'aide sans cadres, cliquer sur cet"></element>
+		<element name="SuggestViewNoFrameMsg2" value="hyperlien."></element>
+		<element name="TopicsNotFound" value="Aucune rubrique trouvée."></element>
+		<element name="CantSearch" value="Ne peut pas rechercher cette phrase."></element>
+		<element name="JS_alert_appletNotLoad" value="Incapable de charger la mini-application. Si vous utilisez une ancienne version de Netscape, le fichier prefs.js doit être édité."></element>
+		<element name="JS_alert_colorlimitation" value="WebHelp a détecté que votre écran était réglé sur 16 couleurs. Pour le support WebHelp, veuillez régler votre écran sur 256 couleurs ou plus."></element>
+		<element name="Blank_topic_text" value="Ce sujet a été créé par l'assistant informatique de conversion de projet WinHelp, et représente la destination d'un sujet manquant ou d'un hyperlien rompu."></element>
+		<element name="JS_alert_ProjectLoadingFail" value="Chargement incorrect. Prière de relancer le chargement."></element>
+		<element name="JS_alert_cantLoadProject" value="Chargement impossible du projet:"></element>
+		<element name="JS_alert_ErrorInLoading" value="Erreur dans le chargement de la navigation. Prière de régénérer WebHelp."></element>
+		<element name="JS_alert_LoadXmlFailed" value="Erreur : impossible de charger le fichier xml."></element>
+		<element name="JS_alert_InitDatabaseFailed" value="Erreur : impossible d’initialiser la base de données."></element>
+		<element name="JS_alert_NotAllDatabaseInited" value="Avertissement : les bases de données n’ont pas toutes été chargées. Certaines rubriques resteront introuvables."></element>
+		<element name="JS_alert_InvalidExpression_1" value="L’expression saisie n’est pas valide."></element>
+		<element name="JS_alert_InvalidExpression_2" value="Cliquez sur"></element>
+		<element name="JS_alert_InvalidExpression_3" value="Aide"></element>
+		<element name="JS_alert_InvalidExpression_4" value="pour savoir comment rédiger une expression de requête (en cours)."></element>
+		<element name="Title" value="Titre"></element>
+		<element name="Rank" value="Niveau"></element>
+		<element name="Canceled" value="Annulé"></element>
+		<element name="IndexBtnText" value="Aller"></element>
+		<element name="FtsBtnText" value="Aller"></element>
+		<element name="ToolBarSearchBtnText" value="Aller"></element>
+		<element name="InTopicSearchBtnText" value="Aller"></element>
+		<element name="SearchLabel" value="Rechercher"></element>
+		<element name="SearchPrompt" value="- Rechercher -"></element>
+		<element name="PreTooltip" value="Sujet précédent"></element>
+		<element name="NextTooltip" value="Sujet suivant"></element>
+		<element name="WebSearch" value="Recherche Web"></element>
+		<element name="SyncTocTooltip" value="Synchronisation de la table des matières"></element>
+		<element name="Book" value="Livre"></element>
+		<element name="Page" value="Page"></element>
+		<element name="Remote_Page" value="Page à distance"></element>
+		<element name="Show_Navigation_Component" value="Afficher le composant de navigation"></element>
+		<element name="Hide_Navigation_Component" value="Ne pas afficher le composant de navigation"></element>
+		<element name="nls_edit_label" value="Tapez votre question:"></element>
+		<element name="nls_button_go_hint" value="Lancer recherche"></element>
+		<element name="nls_button_go_text" value="Ok"></element>
+		<element name="nls_body_instruction" value="Tapez votre question dans le champ ci-dessus, puis cliquez GO."></element>
+		<element name="nls_body_empty" value="Désolé.  Nous n’avons pas pu trouver une réponse satisfaisante à votre question."></element>
+	    <element name="IndexSelectTopicTitle" value="Sélectionnez un sujet"></element>
+		<element name="IndexSelectTopicLabel" value="Sélectionnez un sujet et cliquez sur Affichage"></element>
+		<element name="IndexSelectTopicError" value="Prière de sélectionner un sujet."></element>
+		<element name="IndexAlphabetBookmarks" value="ABCDEFGHIJKLMNOPQRSTUVWXYZ"></element>
+		<element name="MergeError1" value="Le système d'aide fusionné"></element>
+		<element name="MergeError2" value="utilise une langue différente de celle du système d'aide maître. Les fonctionnalités d'index et de recherche sur le texte intégral vont être désactivées dans le système d'aide fusionné."></element>
+		<element name="PoweredBy" value="Développé par"></element>
+		<element name="GeneratedBy" value="Généré par"></element>
+		<element name="Author" value="Auteur"></element>
+		<element name="About" value="À propos de"></element>
+		<element name="Print" value="Imprimer"></element>
+		<element name="TotalNumberOfSearchResults" value="Nombre total de résultats de recherche : %1"></element>
+		<element name="EnableAndSearchString" value="Afficher les résultats contenant tous les mots de la recherche"></element>
+	</section>
+	<section name="MultiScreen">
+		<element name="SearchOptions" value="Options de recherche"></element>
+		<element name="Loading" value="Chargement..."></element>
+		<element name="UnknownError" value="Erreur inconnue"></element>
+		<element name="Logo" value="Logo"></element>
+		<element name="Search" value="Recherche"></element>
+		<element name="HomeButton" value="Accueil"></element>
+		<element name="SearchPageTitle" value="Résultats de la recherche"/>
+		<element name="PreviousLabel" value="Précédent"></element>
+		<element name="NextLabel" value="Suivant"></element>
+		<element name="TopicsNotFound" value="Aucune rubrique trouvée."></element>
+		<element name="JS_alert_LoadXmlFailed" value="Erreur : impossible de charger le fichier xml."></element>
+		<element name="JS_alert_InitDatabaseFailed" value="Erreur : impossible d’initialiser la base de données."></element>
+		<element name="JS_alert_InvalidExpression_1" value="L’expression saisie n’est pas valide."></element>
+		<element name="Searching" value="Recherche..."></element>
+		<element name="Cancel" value="Annuler"></element>	
+		<element name="Canceled" value="Annulé"></element>
+		<element name="ResultsFoundText" value="%1 résultat(s) trouvé(s) pour %2"></element>
+		<element name="SearchResultsPerScreen" value="Résultats de la recherche par page"></element>
+		<element name="Back" value="Retour"></element>
+		<element name="Next" value=">>"></element>
+		<element name="Prev" value="&lt;&lt;"></element>
+		<element name="TableOfContents" value="Table des matières"></element>
+		<element name="IndexFilterKewords" value="Trouver un mot-clé"></element>
+		<element name="GlossaryFilterTerms" value="Trouver un terme"></element>		
+		<element name="ShowAll" value="Tout afficher"></element>
+		<element name="HideAll" value="Tout masquer"></element>
+		<element name="ShowHide" value="Afficher/masquer"></element>
+		<element name="IeCompatibilityErrorMsg" value="Cette page ne peut pas être affichée dans Internet Explorer 8 ou version antérieure."></element>
+		<element name="NoScriptErrorMsg" value="Activez la prise en charge de JavaScript dans le navigateur pour afficher cette page."></element>
+		<element name="EnableAndSearch" value="Afficher les résultats contenant tous les mots de la recherche"></element>
+		<element name="HighlightSearchResults" value="Mettre en surbrillance les résultats de la recherche"></element>
+		<element name="Print" value="Imprimer"></element>
+	</section>
+	<section name="ResponsiveHelp">
+		<element name="SearchOptions" value="Options de recherche"></element>
+		<element name="Loading" value="Chargement..."></element>
+		<element name="UnknownError" value="Erreur inconnue"></element>
+		<element name="Logo" value="Logo"></element>
+		<element name="Search" value="Recherche"></element>
+		<element name="HomeButton" value="Accueil"></element>
+		<element name="SearchPageTitle" value="Résultats de la recherche"/>
+		<element name="PreviousLabel" value="Précédent"></element>
+		<element name="NextLabel" value="Suivant"></element>
+		<element name="TopicsNotFound" value="Aucune rubrique trouvée."></element>
+		<element name="JS_alert_LoadXmlFailed" value="Erreur : impossible de charger le fichier xml."></element>
+		<element name="JS_alert_InitDatabaseFailed" value="Erreur : impossible d’initialiser la base de données."></element>
+		<element name="JS_alert_InvalidExpression_1" value="L’expression saisie n’est pas valide."></element>
+		<element name="Searching" value="Recherche..."></element>
+		<element name="Cancel" value="Annuler"></element>	
+		<element name="Canceled" value="Annulé"></element>
+		<element name="ResultsFoundText" value="%1 résultat(s) trouvé(s) pour %2"></element>
+		<element name="SearchResultsPerScreen" value="Résultats de la recherche par page"></element>
+		<element name="Back" value="Retour"></element>
+		<element name="Next" value=">>"></element>
+		<element name="Prev" value="&lt;&lt;"></element>
+		<element name="TableOfContents" value="Table des matières"></element>
+		<element name="IndexFilterKewords" value="Trouver un mot-clé"></element>
+		<element name="GlossaryFilterTerms" value="Trouver un terme"></element>		
+		<element name="ShowAll" value="Tout afficher"></element>
+		<element name="HideAll" value="Tout masquer"></element>
+		<element name="ShowHide" value="Afficher/masquer"></element>
+		<element name="IeCompatibilityErrorMsg" value="Cette page ne peut pas être affichée dans Internet Explorer 8 ou version antérieure."></element>
+		<element name="NoScriptErrorMsg" value="Activez la prise en charge de JavaScript dans le navigateur pour afficher cette page."></element>
+		<element name="EnableAndSearch" value="Afficher les résultats contenant tous les mots de la recherche"></element>
+		<element name="HighlightSearchResults" value="Mettre en surbrillance les résultats de la recherche"></element>
+		<element name="Print" value="Imprimer"></element>
+		<element name="Filter" value="Filtrer"></element>
+		<element name="SearchTitle" value="Rechercher"></element>
+		<element name="ContentFilterChanged" value="Le filtre de contenu a été modifié, recherchez à nouveau"></element>
+		<element name="EndOfResults" value="Fin des résultats de la recherche."></element>
+		<element name="Reset" value="Réinitialiser"></element>
+		<element name="NavTip" value="Menu"></element>
+		<element name="ToTopTip" value="Retour en haut"></element>
+		<element name="ApplyTip" value="Appliquer"></element>
+		<element name="SidebarToggleTip" value="Développer/Réduire"></element>
+		<element name="Copyright" value="© Copyright © 2017. Tous droits réservés."></element>
+		<element name="FavoriteBoxTitle" value="Favoris"></element>
+		<element name="setAsFavorites" value="Ajouter aux favoris"></element>
+		<element name="unsetAsFavorite" value="Supprimer des Favoris"></element>
+		<element name="favoritesNameLabel" value="Nom"></element>
+		<element name="favoritesLabel" value="Favoris"></element>
+		<element name="setAsFavorite" value="Définir comme favori"></element>
+		<element name="unsetAsFavorite" value="Supprimer des Favoris"></element>
+		<element name="nofavoritesFound" value="Vous n’avez désigné aucune page en tant que favori."></element>
+		<element name="Welcome_header" value="Bienvenue dans notre Centre d’aide"></element>
+		<element name="Welcome_text" value="Que peut-on faire pour vous aider aujourd’hui ?"></element>
+		<element name="FilterIntro" value="Veuillez sélectionner vos filtres :"></element>
+		<element name="SearchButtonTitle" value="Rechercher"></element>
+		<element name="ShowTopicInContext" value="Cliquer ici pour voir cette page dans le contexte complet"></element>
+	</section>
+	<section name="PrintedDoc">
+		<element name="TableOfContents" value="Table des matières"></element>
+		<element name="TitlePage" value="Page de titre"></element>
+		<element name="ChapterFileNamePrefix" value="Chapitre_"></element>
+		<element name="TitlePageFileName" value="Chapitre__Page_Titre.doc"></element>
+		<element name="CrossReferencePrefix" value="Voir"></element>
+		<element name="GlossaryHeadingStyleName" value="En-tête de glossaire"></element>
+		<element name="GlossaryTermStyleName" value="Terme de glossaire"></element>
+		<element name="GlossaryDefinitionStyleName" value="Définition de glossaire"></element>
+		<element name="TitlePageTitleStyleName" value="Titre de page de titre"></element>
+		<element name="TocPageTitleStyleName" value="Page de titre de table des matières"></element>
+	</section>
+</configuration>

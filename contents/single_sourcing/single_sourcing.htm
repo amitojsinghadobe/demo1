@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="topic-status" content="Complete"/>
+<meta name="generator" content="Adobe RoboHelp 2019"/>
+<title>Single Sourcing</title>
+<link rel="StyleSheet" href="../assets/css/rh_reimagined.css" type="text/css"/>
+</head>
+
+<body>
+<h1>Single Sourcing Using Condition Tags</h1>
+<p>Single sourcing is a method of applying condition tags to topics, content 
+ in topics, toc books and pages and index entries so that the tag can be 
+ included in a build expression to exclude it from a chosen output. For 
+ example, a single topic could contain additional information only to be 
+ seen in certain outputs, perhaps a printed output needs an image not required 
+ in online versions. Essentially it means a single project (source) can 
+ produce multiple outputs, each with different content. This is done by 
+ using Conditional Tags.</p>
+<h2>How do Condition Tags Work?</h2>
+<p>The concept is best explained using an example. Let&#39;s say you are producing 
+ a knowledge base for your company with some content that applies to everyone, 
+ some applies only sales staff and some only applies to admin staff. Also 
+ sales staff and admin staff must not see each others content. In that 
+ scenario <a href="../outputs/dynamic_content.htm">Dynamic Content Filtering</a> 
+ would not work as both could see the content for the other. You need to 
+ generate separate outputs for each group.</p>
+<p>In this example you would to create two condition tags labelled say 
+ Sales and Admin.</p>
+<p>The screenshot shows the default condition tag groups. You can edit 
+ their names and add or remove the groups in Project Settings.<br/>
+<br/>
+<img src="../assets/images/images/tags01.png" alt="" style="border: none;" border="0"/></p>
+<p>Here though Audience suits our purposes so click the + icon, select 
+ the group in the dropdown that displays and set the color for it.</p>
+<p class="Emphasis1"><img src="../assets/images/BadgeTip.png" style="border: none;" alt="" border="0"/> When you set the color for any 
+ tag, also set the opacity to 50 or lower so that the text is still legible.</p>
+<p><br/>
+<img src="../assets/images/images/tags02.png" alt="" style="border: none;" border="0"/><br/>
+</p>
+<p>With the required tags set up, you now create your content. Here two 
+ paragraphs have been set up with content for a specific audience.</p>
+<p>Simply select the text to which the condition tag is to be applied, 
+ right click and select Apply Condition Tags.</p>
+<p><img src="../assets/images/images/tags03.png" alt="" style="border: none;" border="0"/></p>
+<p>In the Preview you can select specific tags such as Sales to see what 
+ the Sales staff would see, the first two paragraphs. </p>
+<p class="Emphasis1"><img src="../assets/images/BadgeWarning.png" style="border: none;" alt="" border="0"/> Keep in mind that when 
+ you generate your output, the expression you create there could reverse 
+ that.</p>
+<p>You can also set a condition at topic level in the Properties </p>
+<h2>Using Condition Tags in an Expression</h2>
+<p>In Output &gt; Output Settings, click Condition Expressions, then click 
+ the + icon to create an expression.</p>
+<p><img src="../assets/images/images/tags04.png" alt="" style="border: none;" border="0"/></p>
+<p><br/>
+As you drag tags, by default <span data-keyref="ProdName">Adobe RoboHelp 2019</span> 
+ will set the tag to be excluded and additional tags will be set to be 
+ AND.</p>
+<p>Thus if you drag both Sales and Admin, by default the expression will 
+ be Exclude Sales AND Exclude Admin. However, you can easily change Exclude 
+ to Include and you can change AND to OR.</p>
+<h2>Generating an Output</h2>
+<p>By using different expressions, you can generate different outputs for 
+ different audiences, such as in the example above, or you could apply 
+ the Print condition tag to images and then exclude the images from online 
+ help but include them in Printed Documentation and so on.</p>
+<p>In the Output Presets you can either select the required expression 
+ each time you generate or you can create one or more presets and set each 
+ one up with a specific expression. In this example you might set up Responsive 
+ HTML5 Sales and Responsive HTML5 Admin.</p>
+<p> </p>
+<p> </p>
+<p> </p>
+
+
+</body></html>

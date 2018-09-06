@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<val>
+  <prop att="Others" val="AuthorContent" backcolor="#0000ff"></prop>
+  <prop att="Others" val="BetaExclude" backcolor="#000000"></prop>
+  <prop att="Others" val="Online" backcolor="#00ff00"></prop>
+  <prop att="Others" val="Print" backcolor="#ff0000"></prop>
+</val>

@@ -1,0 +1,38 @@
+{
+  "content": {
+    "index": true,
+    "toc": {
+      "path": "../../toc/rh_reimagined.toc",
+      "name": "rh_reimagined"
+    },
+    "glossary": {
+      "path": "../../glossary/rh_reimagined.glo",
+      "name": "rh_reimagined"
+    },
+    "masterpage": "",
+    "brs": []
+  },
+  "outputPath": "",
+  "search": {
+    "fileTypes": {},
+    "fuzzy": true,
+    "suggestion": true,
+    "context": false,
+    "glossary": true,
+    "contextLimit": "100"
+  },
+  "sitemap": {
+    "use": false,
+    "changeFrequency": ""
+  },
+  "name": "WebHelp",
+  "type": "webhelp",
+  "title": "RoboHelp Reimagined",
+  "starterPage": "index.htm",
+  "glosstermEffect": 0,
+  "createThumbNails": true,
+  "skin": {
+    "name": "Azure_web",
+    "path": "../skins/Azure_web/webhelp.skn"
+  }
+}

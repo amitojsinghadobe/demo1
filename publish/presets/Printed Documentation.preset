@@ -1,0 +1,40 @@
+{
+  "content": {
+    "index": true,
+    "toc": {
+      "path": "../../toc/rh_reimagined.toc",
+      "name": "rh_reimagined"
+    },
+    "glossary": {
+      "path": "../../glossary/rh_reimagined.glo",
+      "name": "rh_reimagined"
+    },
+    "masterpage": {
+      "name": "<Default>",
+      "path": "../masterpages/<Default>"
+    },
+    "brs": []
+  },
+  "outputPath": "",
+  "starterPage": "Printed_Documentation_180707.pdf",
+  "search": {
+    "context": false
+  },
+  "sitemap": {
+    "use": false,
+    "changeFrequency": ""
+  },
+  "name": "Printed Documentation",
+  "type": "pdf",
+  "title": "RoboHelp Reimagined",
+  "defaultTopic": "",
+  "pdf": {
+    "multiHeaders": false,
+    "margin": [
+      10,
+      10,
+      10,
+      10
+    ]
+  }
+}

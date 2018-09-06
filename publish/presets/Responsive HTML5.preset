@@ -1,0 +1,43 @@
+{
+  "content": {
+    "index": true,
+    "toc": {
+      "path": "../../toc/rh_reimagined.toc",
+      "name": "rh_reimagined"
+    },
+    "glossary": {
+      "path": "../../glossary/rh_reimagined.glo",
+      "name": "rh_reimagined"
+    },
+    "masterpage": "",
+    "brs": []
+  },
+  "outputPath": "",
+  "starterPage": "index.htm",
+  "search": {
+    "fileTypes": {},
+    "fuzzy": true,
+    "suggestion": true,
+    "context": false,
+    "glossary": true,
+    "contextLimit": "100"
+  },
+  "sitemap": {
+    "use": true,
+    "changeFrequency": "Monthly",
+    "helpBaseURL": ""
+  },
+  "name": "Responsive HTML5",
+  "type": "html5",
+  "title": "RoboHelp Reimagined",
+  "defaultTopic": {
+    "name": "01_rh_reimagined/robohelp_reimagined.htm",
+    "path": "../../contents/01_rh_reimagined/robohelp_reimagined.htm"
+  },
+  "glosstermEffect": 0,
+  "createThumbNails": true,
+  "skin": {
+    "name": "Azure",
+    "path": "../skins/Azure/html5.skn"
+  }
+}

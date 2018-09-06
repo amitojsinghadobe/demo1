@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+  <title>Table of Contents</title>
+  <page navtitle="RoboHelp Reimagined" href="../contents/01_rh_reimagined/robohelp_reimagined.htm" format="html" processing-role="normal"></page>
+  <book navtitle="Upgrading" format="html" processing-role="normal">
+    <page navtitle="Upgrading to Adobe RoboHelp 2019" href="../contents/upgrading/upgrading_to_2019.htm" format="html" processing-role="normal"></page>
+  </book>
+  <book navtitle="Working with Adobe RoboHelp 2019" format="html" processing-role="normal">
+    <page navtitle="User Interface" href="../contents/working_with_rh/ui.htm" format="html" processing-role="normal"></page>
+  </book>
+  <book navtitle="Creating Topics" format="html" processing-role="normal">
+    <page navtitle="The Contents Panel" href="../contents/creating_topics/contents_panel.htm" format="html" processing-role="normal"></page>
+    <page navtitle="Working on Topics" href="../contents/creating_topics/working_on_topics.htm" format="html" processing-role="normal"></page>
+    <page navtitle="Master Pages" href="../contents/creating_topics/master_pages.htm" format="html" processing-role="normal"></page>
+    <page navtitle="Variables" href="../contents/creating_topics/variables.htm" format="html" processing-role="normal"></page>
+    <page navtitle="Snippets" href="../contents/creating_topics/snippets.htm" format="html" processing-role="normal"></page>
+    <page navtitle="Dropdowns and Expanding Text" href="../contents/creating_topics/dropdowns.htm" format="html" processing-role="normal"></page>
+    <page navtitle="Resource Linking" href="../contents/creating_topics/resource_linking.htm" format="html" processing-role="normal"></page>
+    <page navtitle="Word and FrameMaker Docs" href="../contents/creating_topics/word_and_fm_docs.htm" format="html" processing-role="normal"></page>
+    <page navtitle="Images, Videos and Captivate" href="../contents/creating_topics/images_and_videos.htm" format="html" processing-role="normal"></page>
+    <page navtitle="Source Control" href="../contents/creating_topics/source_control.htm" format="html" processing-role="normal"></page>
+  </book>
+  <book navtitle="TOC, Index and Glossary" format="html" processing-role="normal">
+    <page navtitle="The Table of Contents" href="../contents/toc_index_glossary/toc.htm" format="html" processing-role="normal"></page>
+    <page navtitle="The Index" href="../contents/toc_index_glossary/index.htm" format="html" processing-role="normal"></page>
+    <page navtitle="The Glossary" href="../contents/toc_index_glossary/glossary.htm" format="html" processing-role="normal"></page>
+  </book>
+  <book navtitle="Reports" format="html" processing-role="normal">
+    <page navtitle="Reports" href="../contents/reports/reports.htm" format="html" processing-role="normal"></page>
+  </book>
+  <book navtitle="Reviewing Topics" format="html" processing-role="normal">
+    <page navtitle="Reviewing Topics" href="../contents/reviewing/reviewing.htm" format="html" processing-role="normal"></page>
+  </book>
+  <book navtitle="Single Sourcing" format="html" processing-role="normal">
+    <page navtitle="Single Sourcing" href="../contents/single_sourcing/single_sourcing.htm" format="html" processing-role="normal"></page>
+  </book>
+  <book navtitle="Outputs" format="html" processing-role="normal">
+    <page navtitle="Outputs General" href="../contents/outputs/outputs_general.htm" format="html" processing-role="normal"></page>
+    <page navtitle="Dynamic Content Filtering" href="../contents/outputs/dynamic_content.htm" format="html" processing-role="normal"></page>
+    <page navtitle="The Skin Editor" href="../contents/outputs/skin_editor.htm" format="html" processing-role="normal"></page>
+    <page navtitle="Responsive HTML5 Output" href="../contents/outputs/outputs_responsive.htm" format="html" processing-role="normal"></page>
+    <page navtitle="WebHelp Output" href="../contents/outputs/outputs_webhelp.htm" format="html" processing-role="normal"></page>
+    <page navtitle="Microsoft HTML Output - CHMs" href="../contents/outputs/outputs_chm.htm" format="html" processing-role="normal"></page>
+    <page navtitle="eBook Output" href="../contents/outputs/outputs_ebook.htm" format="html" processing-role="normal"></page>
+    <page navtitle="Mobile App Output" href="../contents/outputs/outputs_mobile_apps.htm" format="html" processing-role="normal"></page>
+    <page navtitle="Printed Documentation Output" href="../contents/outputs/outputs_printed_docs.htm" format="html" processing-role="normal"></page>
+  </book>
+  <book navtitle="Other Information" format="html" processing-role="normal">
+    <page navtitle="Bits and Pieces" href="../contents/bits_and_pieces/bits_and_pieces.htm" format="html" processing-role="normal"></page>
+    <page navtitle="Earlier Version Notes" href="../contents/upgrading/earlier_version_notes.htm" format="html" processing-role="normal"></page>
+  </book>
+</map>

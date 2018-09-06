@@ -1,0 +1,45 @@
+{
+  "content": {
+    "index": true,
+    "toc": {
+      "path": "../../toc/rh_reimagined.toc",
+      "name": "rh_reimagined"
+    },
+    "glossary": {
+      "path": "../../glossary/rh_reimagined.glo",
+      "name": "rh_reimagined"
+    },
+    "brs": []
+  },
+  "outputPath": "",
+  "search": {
+    "fileTypes": {},
+    "fuzzy": true,
+    "suggestion": true,
+    "context": false,
+    "glossary": true,
+    "contextLimit": "100"
+  },
+  "sitemap": {
+    "use": false,
+    "changeFrequency": ""
+  },
+  "name": "Mobile App",
+  "type": "mobileapp",
+  "title": "RoboHelp Reimagined",
+  "mobileapp": {
+    "configfile": {
+      "name": "config",
+      "path": "Mobile App/config.json"
+    },
+    "android": true,
+    "iOS": false
+  },
+  "starterPage": "index.htm",
+  "glosstermEffect": 0,
+  "createThumbNails": true,
+  "skin": {
+    "name": "Azure_mobile",
+    "path": "../skins/Azure_mobile/html5.skn"
+  }
+}
